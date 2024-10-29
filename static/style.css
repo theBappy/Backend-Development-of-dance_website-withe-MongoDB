@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 16px;
+    margin-right: 40px;
+    font-size: 1.7rem;
+}
+#logo img{
+    height: 50px;
+    filter: invert(1);
+
+}
+#navbar{
+    background-color: rgb(220, 235, 235);
+    padding: 12px 24px;
+    font-family: "Roboto", serif;
+    background-color: rgb(53, 118, 161);
+    text-transform: uppercase;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#navbar li {
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg") ;
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#sponsorSection{
+    height: 300px;
+    text-align: center;
+    color: white;
+    font-family: 'ZCOOL QingKe HuangYou';
+    padding-top: 20px;
+    background-color: rgb(233, 191, 236);
+}
+#sponsors{
+    height: 191px;
+    max-width: 1000px;
+    margin: 24px auto;
+}
+.spimage{
+    height: 60%;
+    margin: 10px;
+}
+#missioSection {
+    background: white;
+    height: 250px;
+    margin: auto;
+    display: block;
+}
+
+#missioSection h2{
+    font-family: serif;
+    text-align: center;
+    padding: 10px;
+}  
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    height: 20vh;
+    margin: 16px 32px;
+    display: inline-block;
+    text-align: center;
+}
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img {
+    height: 100px;
+    padding: 0 16px;
+    margin: 4px 8px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px; 
+}
+.card-content p{
+    font-size: 19px;
+}
+#footer{
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200  !important;
+    font-size: 12px;
+}
